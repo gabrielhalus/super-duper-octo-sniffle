@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 mongoose
-    .connect('mongodb+srv://'+ process.env.DB_USER_PASS + '@cluster0.4hkbt.mongodb.net/mern-project',
+    .connect('mongodb+srv://'+ process.env.DB_USER_PASS + '@cluster0.4hkbt.mongodb.net/api-bde',
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
