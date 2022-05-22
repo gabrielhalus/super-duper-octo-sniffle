@@ -11,11 +11,11 @@ const eventSchema = new mongoose.Schema({
         default: 0,
     },
     date: {
-        type: String,
+        type: Date,
         required: true,
     },
     booking_limit: {
-        type: String,
+        type: Date,
     },
     picture: {
         type: String,
